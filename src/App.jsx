@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useGeolocation } from "./useGeolocation";}
+import { useGeolocation } from "./useGeolocation";
 
 export default function App() {
   const { isLoading, position : {lat, lng}, error, getPosition } = useGeolocation();
